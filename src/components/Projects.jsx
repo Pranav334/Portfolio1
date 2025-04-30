@@ -2,71 +2,45 @@ import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { useState } from 'react';
 
+// ...existing imports...
+
 const Projects = () => {
   const [hoveredId, setHoveredId] = useState(null);
   
   const projects = [
     {
       id: 1,
-      title: "Online Code Compiler",
-      description: "A web-based compiler allowing users to write, compile, and execute code in multiple programming languages with real-time syntax highlighting and error detection.",
-      technologies: ["Node.js", "Express", "CodeMirror", "JavaScript"],
-      date: "March 2023 - May 2023",
-      github: "#",
+      title: "Emojify using Face Recognition",
+      description: "Built a real-time application that captures live video input to detect facial expressions using face recognition and computer vision techniques. The system maps recognized emotions to corresponding emojis, providing a visual and interactive representation of human emotions.",
+      technologies: ["Python", "OpenCV", "Pandas", "NumPy"],
+      date: "March 2024",
+      github: "https://github.com/pranav521/Emojify.git",
       demo: "#",
-      image: "https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&q=80&w=1000"
+      image: "https://images.unsplash.com/photo-1549923746-c502d488b3ea?auto=format&fit=crop&q=80&w=1000",
+      highlights: [
+        "Real-time facial expression detection",
+        "Emotion to emoji mapping",
+        "Pre-trained ML models for recognition"
+      ]
     },
     {
       id: 2,
-      title: "Sudoku Solver",
-      description: "An interactive Sudoku game with automatic puzzle generation, difficulty levels, and an intelligent solver using backtracking algorithm. Features real-time validation and hints.",
-      technologies: ["HTML5", "CSS3", "JavaScript", "Algorithms"],
-      date: "April 2023 - June 2023",
-      github: "#",
+      title: "Car Defect Detection Model",
+      description: "Built a computer vision model capable of identifying visible defects in car exteriors from images using deep learning techniques. Achieved 85% accuracy on the validation set, demonstrating the model's effectiveness in real-world defect scenarios.",
+      technologies: ["Python", "OpenCV", "Keras", "NumPy"],
+      date: "November 2024",
+      github: "https://github.com/pranav521/Cardefect.git",
       demo: "#",
-      image: "https://images.unsplash.com/photo-1614107151491-6876eecbff89?auto=format&fit=crop&q=80&w=1000"
-    },
-    {
-      id: 3,
-      title: "Quick Crew",
-      description: "An on-demand service hiring platform for professionals like drivers, helpers, and caretakers with real-time booking system and secure payment integration.",
-      technologies: ["PHP", "MySQL", "JavaScript", "Bootstrap"],
-      date: "Nov 2024 - Dec 2024",
-      github: "#",
-      demo: "#",
-      image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=1000"
-    },
-    {
-      id: 4,
-      title: "SwayamRozgar",
-      description: "A freelancing platform connecting clients and freelancers, enabling seamless project collaboration with secure authentication and messaging features.",
-      technologies: ["React.js", "Node.js", "MongoDB", "Socket.io", "Tailwind CSS"],
-      date: "Feb 2025 - March 2025",
-      github: "#",
-      demo: "#",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1000"
-    },
-    {
-      id: 5,
-      title: "Legal-Convenience",
-      description: "An incentive-based marketplace for legal service providers in India, connecting citizens with qualified professionals like advocates, arbitrators, mediators, and notaries.",
-      technologies: ["Laravel", "PHP", "MongoDB", "Tailwind CSS", "Bootstrap", "MySQL", "XAMPP"],
-      date: "July 2024 - Oct 2024",
-      github: "#",
-      demo: "#",
-      image: "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=1000"
-    },
-    {
-      id: 6,
-      title: "Taapman",
-      description: "A modern weather platform that provides real-time weather data, forecasts and climate insights using external weather APIs with interactive visualizations.",
-      technologies: ["React.js", "Tailwind CSS", "Weather API", "Chart.js", "JavaScript"],
-      date: "Jan 2024 - Feb 2024",
-      github: "#",
-      demo: "#",
-      image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80&w=1000"
+      image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=1000",
+      highlights: [
+        "CNN-based defect detection",
+        "85% validation accuracy",
+        "Scratch, dent & damage detection"
+      ]
     }
   ];
+
+  // ...rest of the existing component code...
 
   return (
     <div name="projects" className="w-full min-h-screen bg-gradient-to-b from-gray-900/90 to-black/90 text-white py-16 relative z-10">

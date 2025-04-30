@@ -24,10 +24,8 @@ const Navbar = () => {
         { id: 2, link: 'about' },
         { id: 3, link: 'skills' },
         { id: 4, link: 'projects' },
-        { id: 5, link: 'experience' },
-        { id: 6, link: 'contributions' },
-        { id: 7, link: 'certifications' },
-        { id: 8, link: 'contact' },
+        { id: 5, link: 'certifications' },
+        { id: 6, link: 'contact' },
     ];
     
     // Function to open resume - Updated to use saras.pdf
@@ -40,7 +38,7 @@ const Navbar = () => {
             <div>
                 <h1 className="text-4xl font-signature ml-2 cursor-pointer text-white">
                     <Link to="home" smooth duration={500}>
-                        <span className="text-blue-500">S</span>aras
+                        <span className="text-blue-500">P</span>ranav
                     </Link>
                 </h1>
             </div>

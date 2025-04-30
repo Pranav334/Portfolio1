@@ -69,7 +69,7 @@ const Hero = () => {
               transform: `translate(${mousePosition.x * 15}px, ${mousePosition.y * 15}px)`,
             }}
           >
-            Saraswati Chandra
+            Pranav Prakash
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: -50 }}
@@ -80,7 +80,7 @@ const Hero = () => {
               transform: `translate(${mousePosition.x * 20}px, ${mousePosition.y * 20}px)`,
             }}
           >
-            A passionate Computer Science student and Full-Stack Developer with expertise in creating innovative web applications and contributing to open-source projects.
+            A passionate Computer Science student and Software Developer with expertise in creating innovative web applications and contributing to open-source projects.
           </motion.p>
 
           <motion.div

@@ -114,7 +114,7 @@ const Footer = () => {
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 400 }}
             >
-              <span className="text-blue-500">S</span>araswati Chandra
+              <span className="text-blue-500">P</span>ranav Prakash
             </motion.h2>
             <p className="text-gray-400">Full-Stack Developer & Open Source Contributor</p>
             <motion.div 
@@ -308,7 +308,7 @@ const Footer = () => {
             <div className="h-full bg-gradient-to-l from-blue-500/50 to-transparent" />
           </motion.div>
           
-          <p>© {currentYear} Saraswati Chandra. All rights reserved.</p>
+          <p>© {currentYear} Pranav Prakash. All rights reserved.</p>
           <motion.p 
             className="text-sm text-gray-500 mt-2 flex items-center justify-center"
             initial={{ opacity: 0 }}
