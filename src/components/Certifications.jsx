@@ -17,8 +17,15 @@ const Certifications = () => {
       title: "Data Structures and Algorithms Specialization",
       org: "Coursera",
       date: "June 2024 – August 2024"
+    },
+    {
+      title: "Generative AI with Large Language Models",
+      org: "Coursera",
+      date: "Feb 2024 - Apr 2024"
     }
   ];
+
+  // ...existing return statement and component code...
 
   return (
     <div name="certifications" className="w-full min-h-screen bg-gradient-to-b from-gray-900/90 to-black/90 text-white py-16 relative z-10">
